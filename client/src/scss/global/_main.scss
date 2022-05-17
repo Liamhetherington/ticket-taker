@@ -1,0 +1,10 @@
+body {
+  min-height: 100vh;
+  margin: -3vh 0;
+  #root {
+    height: 100vh;
+    .App {
+      height: 100vh;
+    }
+  }
+}

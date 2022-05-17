@@ -1,0 +1,19 @@
+.landing-page {
+  height: 100%;
+  background: linear-gradient($blue 50%, $red 50%);
+  padding: 1.5em;
+  h1 {
+    color: $white;
+  }
+  .register-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $white;
+    height: 50%;
+    border-radius: 35px;
+    button {
+      margin: 1em;
+    }
+  }
+}
