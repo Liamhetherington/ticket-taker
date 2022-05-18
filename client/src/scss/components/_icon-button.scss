@@ -3,15 +3,12 @@ button {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 130px;
+  min-height: 120px;
   width: 250px;
   padding: 1em;
-  margin: 2em;
   border-radius: 10px;
-  background-color: $blue;
+  background-color: #423eca;
   border: none;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
@@ -25,5 +22,6 @@ button {
   p.icon-btn-text {
     font-size: 16px;
     color: $white;
+    margin: 0;
   }
 }
