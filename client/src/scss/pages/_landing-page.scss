@@ -9,11 +9,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: $white;
     height: 50%;
     border-radius: 35px;
-    button {
-      margin: 1em;
+    .divider {
+      border-bottom: 1px solid $light-grey;
+      width: 60%;
+      align-self: center;
     }
   }
 }
