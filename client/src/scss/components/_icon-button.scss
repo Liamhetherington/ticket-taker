@@ -8,16 +8,22 @@ button {
   padding: 1em;
   margin: 2em;
   border-radius: 10px;
+  background-color: $blue;
   border: none;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
   svg {
     font-size: 42px;
-    color: $blue;
+    color: $white;
   }
   p.icon-btn-text {
     font-size: 16px;
+    color: $white;
   }
 }

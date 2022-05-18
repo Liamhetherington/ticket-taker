@@ -1,13 +1,11 @@
 body {
   min-height: 100vh;
+  font-family: "Lato";
   #root {
     height: 100vh;
     .App {
       height: 100vh;
       position: relative;
-      p {
-        font-family: "Lato";
-      }
     }
   }
 }
